@@ -91,8 +91,8 @@ const Game: React.FC = () => {
       <ScoreContainer>
         <PlayerContainer>
           <PlayerName>{game.player1.name}</PlayerName>
-          <PlayerWins>{game.player1.wins}</PlayerWins>
-          <PlayerAddWinButton onPress={() => handleAddWin('player1')}>
+          <PlayerWins testID="player1Score">{game.player1.wins}</PlayerWins>
+          <PlayerAddWinButton onPress={() => handleAddWin('player1')} testID="player1Button">
             <PlayerAddWinButtonText>Add win</PlayerAddWinButtonText>
             <Icon name="plus" color="#fff" />
           </PlayerAddWinButton>

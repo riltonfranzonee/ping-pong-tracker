@@ -33,7 +33,7 @@ const Home: React.FC = () => {
     dispatch(startGame());
 
     navigation.navigate(`Game`);
-  }, [game, navigation, dispatch]);
+  }, [game, navigation.navigate, dispatch]);
 
   return (
     <Container>
