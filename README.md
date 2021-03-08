@@ -36,4 +36,3 @@ $ react-native run-ios
 ```bash
 $ yarn test
 
-
