@@ -15,7 +15,6 @@ Tracking system for ping pong games - Mobile application made with React Native
   </tr>
  </table>
 
-
 ## :information_source: How to run
 
 ```bash
@@ -30,4 +29,11 @@ $ yarn (OR npm install)
 
 # Initialize the app
 $ react-native run-ios
+```
+
+## :information_source: How to test
+
+```bash
+$ yarn test
+
 
